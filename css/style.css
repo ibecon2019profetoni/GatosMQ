@@ -1,20 +1,100 @@
 /* ***************************
     CSS General
 *************************** */
+html{
+    font-family: arial, sans-serif;
+    font-size: 16px;
+}
 
 /* Estilos Básicos */
 /* *************** */
 
 /* Tipografía */
+.font_titulos{
+    font-size: 2.5rem;
+}
+.font_parrafos{
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+.font_label{
+    font-size: 1.125rem;
+}
+
 
 
 /* Colores */
 
+.Color_Text_GrisOscuro{
+    color:#707070
+}
+.Color_Text_GrisMedio{
+    color:#606060
+}
+.Color_Text_GrisBajo{
+    color:##BFBFBF
+}
+.Color_Text_Blanco{
+    color: #fff;
+}
+
+
+.Color_Fondo_GrisOscuro{
+    background-color:#707070
+}
+.Color_Fondo_GrisMedio{
+    background-color:#606060
+}
+.Color_Fondo_GrisBajo{
+    background-color:##BFBFBF
+}
+.Color_Fondo_Blanco{
+    background-color: #fff;
+}
 
 /* Enlaces */
-
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.125rem;
+}
 
 /* Botones */
-
+.btn{
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.btn_rojo{
+    background-color: #B93E3E;
+}
+.btn_gris{
+    background-color: #606060;
+}
 
 /* Margenes */
+.separadores{
+    margin: 2rem 0;
+}
+.sep_links{
+    margin: 0 1rem;
+}
+
+header{
+    padding: 1rem;
+}
+main,footer{
+    padding: 2rem;
+}
+
+/* Tamaños de Estructuras */
+header{
+    height: 70px;
+}
+img{
+    width: 100%;
+}
+input{
+    height: 50px;
+    padding: 0.7rem;
+}
