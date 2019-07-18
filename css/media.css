@@ -53,6 +53,14 @@ and (orientation: landscape)
 and (min-width:1366px)
 {
 
+    .header__menu__desplegable{
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+    .header__menu__desplegable li:nth-child(2){
+        margin: 0 2rem;
+    } 
 
 
 }
