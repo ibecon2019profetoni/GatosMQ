@@ -71,6 +71,7 @@
 
     <main>
         <!-- Gatos -->
+
     </main>
 
 
@@ -78,7 +79,33 @@
 
 
     <footer>
+    <!-- La zona del footer consta de una parte de texto y un formulario de contacto -->
 
+    <!-- Texto -->
+    <h5 class="footer__texto font_titulos Color_Text_GrisMedio">¿Cómo es?</h5>
+    <p class="footer__parrafo font_parrafos Color_Text_GrisMedio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci magni possimus quas accusantium, maiores omnis praesentium numquam hic eius reprehenderit saepe neque? Odit unde mollitia soluta explicabo consequatur quam eveniet laborum possimus quidem aut esse cupiditate, at incidunt perspiciatis.</p>
+    <!-- Contactar -->
+    <form class="footer__formulario" action="contactar.php" method="POST">
+        <!-- introduce el usuario el nombre de su mascota -->
+        <label class="footer__formulario__label--nombre" for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre del Felino">
+        <!-- introduce el usuario su nombre -->
+        <label class="footer__formulario__label--duenyo" for="duenyo"></label>
+        <input type="text" name="duenyo" id="duenyo" placeholder="Nombre del Dueño">
+        <!-- introduce el usuario su correo electrónico -->
+        <label class="footer__formulario__label--email" for="email"></label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <!-- introduce el usuario su teléfono -->
+        <label class="footer__formulario__label--movil" for="movil"></label>
+        <input type="tel" name="movil" id="movil" placeholder="Móvil">
+        <!-- envía una imagen de su gato ene formato .jpg  -->
+        <h6>Adjuntar una foto.jpg</h6>
+        <label class="footer__formulario__label--btn" for="adjuntar">adjuntar</label>
+        <input type="file" name="adjuntar" id="adjuntar" accept="image/jpeg">
+        <!-- Enviar formulario -->
+        <button type="submit">Enviar</button>
+    </form>
+    
     </footer>
 </body>
 </html>

@@ -63,5 +63,48 @@ and (min-width:1366px)
     } 
 
 
+/* MAIN */
+/* Eliminando el picture */
+figure picture{
+    display: none;
+}
+
+figure{
+    display: flex;
+    align-items: flex-end;
+    height: 150px;
+    padding: 2rem;
+}
+figure:nth-child(1){
+    background:url(/assets/img/desktop/Gato\ 1.jpg) no-repeat center;
+    background-size: cover;
+}
+figure:nth-child(2){
+    background:url(/assets/img/desktop/Gato\ 2.jpg) no-repeat center 20%;
+    background-size: cover;
+}
+figure:nth-child(3){
+    background:url(/assets/img/desktop/Gato\ 3.jpg) no-repeat center;
+    background-size: cover;
+}
+/* Animación */
+figure:hover{
+    height: 400px;
+    transition: 1s;
+}
+
+/* Cambiando el figcaption Ocultandolo */
+figure figcaption{
+    color: #fff;
+    visibility: hidden;
+    width: 30%;
+    text-align: justify;
+}
+/* Figcaption ahora visible */
+figure:hover figcaption{
+    visibility: visible;
+}
+
+
 }
 
